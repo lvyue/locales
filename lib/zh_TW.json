@@ -13,9 +13,9 @@
         },
         "wrongPassword": {
             "submit": "提交",
-            "tryAgain": "密碼錯誤。請重試"
+            "tryAgain": "密碼錯誤，請重試"
         },
-        "pageLabel": "頁面 {{pageIndex}}"
+        "pageLabel": "第 {{pageIndex}} 頁"
     },
     "defaultLayout": {
         "attachment": "附件",
@@ -26,14 +26,14 @@
         "download": "下載"
     },
     "drop": {
-        "dragDropFile": "將 PDF 文檔拖放到此處"
+        "dragDropFile": "拖放PDF文件到這裡"
     },
     "fullScreen": {
         "enterFullScreen": "全屏",
         "exitFullScreen": "退出全屏"
     },
     "localeSwitcher": {
-        "switchLocale": "更改區域設置"
+        "switchLocale": "切換語言"
     },
     "open": {
         "openFile": "打開文件"
@@ -47,20 +47,22 @@
     },
     "print": {
         "cancel": "取消",
-        "preparingDocument": "準備文件...",
+        "close": "關閉",
+        "disallowPrint": "該文件不允許打印",
+        "preparingDocument": "正在準備文件...",
         "print": "打印"
     },
     "properties": {
         "author": "作者",
         "close": "關閉",
-        "creationDate": "創作日期",
-        "creator": "創作者",
-        "fileName": "文件名稱",
+        "creationDate": "創建日期",
+        "creator": "創建者",
+        "fileName": "文件名",
         "fileSize": "文件大小",
         "keywords": "關鍵詞",
         "modificationDate": "修改日期",
         "pageCount": "頁數",
-        "pdfProducer": "PDF製作軟體",
+        "pdfProducer": "PDF生成器",
         "pdfVersion": "PDF版本",
         "showProperties": "顯示屬性",
         "subject": "主題",
@@ -71,39 +73,43 @@
         "rotateForward": "順時針旋轉"
     },
     "scrollMode": {
+        "dualPage": "雙頁",
+        "dualPageCover": "帶封面的雙頁",
         "horizontalScrolling": "水平滾動",
+        "pageScrolling": "頁面滾動",
+        "singlePage": "單頁",
         "verticalScrolling": "垂直滾動",
-        "wrappedScrolling": "環繞滾動"
+        "wrappedScrolling": "包裝滾動"
     },
     "search": {
         "close": "關閉",
-        "enterToSearch": "輸入搜索詞",
-        "matchCase": "相符",
-        "nextMatch": "下一個相符",
-        "previousMatch": "上一個相符",
+        "enterToSearch": "輸入搜索",
+        "matchCase": "區分大小寫",
+        "nextMatch": "下一個匹配項",
+        "previousMatch": "上一個匹配項",
         "search": "搜索",
-        "wholeWords": "全部詞句"
+        "wholeWords": "全字匹配"
     },
     "selectionMode": {
-        "handTool": "手型工具",
+        "handTool": "手動工具",
         "textSelectionTool": "文本選擇工具"
     },
     "theme": {
-        "switchDarkTheme": "切換到深色模式",
-        "switchLightTheme": "切換到淺色模式"
+        "switchDarkTheme": "切換到暗色主題",
+        "switchLightTheme": "切換到亮色主題"
     },
     "thumbnail": {
-        "thumbnailLabel": "頁面縮略圖 {{pageIndex}}"
+        "thumbnailLabel": "第 {{pageIndex}} 頁的縮略圖"
     },
     "toolbar": {
         "moreActions": "更多操作"
     },
     "zoom": {
-        "actualSize": "實際尺寸",
-        "pageFit": "適合頁面",
-        "pageWidth": "頁面寬度",
+        "actualSize": "實際大小",
+        "pageFit": "適應頁面",
+        "pageWidth": "適應頁面寬度",
         "zoomDocument": "縮放文件",
-        "zoomIn": "縮小",
-        "zoomOut": "放大"
+        "zoomIn": "放大",
+        "zoomOut": "縮小"
     }
 }

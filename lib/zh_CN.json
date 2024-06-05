@@ -8,14 +8,14 @@
     },
     "core": {
         "askingPassword": {
-            "requirePasswordToOpen": "此文件需要密码才能打开",
+            "requirePasswordToOpen": "此文档需要密码才能打开",
             "submit": "提交"
         },
         "wrongPassword": {
             "submit": "提交",
-            "tryAgain": "密码错误。请重试"
+            "tryAgain": "密码错误，请重试"
         },
-        "pageLabel": "页面 {{pageIndex}}"
+        "pageLabel": "第 {{pageIndex}} 页"
     },
     "defaultLayout": {
         "attachment": "附件",
@@ -26,14 +26,14 @@
         "download": "下载"
     },
     "drop": {
-        "dragDropFile": "将 PDF 文档拖放到此处"
+        "dragDropFile": "拖放PDF文件到此处"
     },
     "fullScreen": {
         "enterFullScreen": "全屏",
         "exitFullScreen": "退出全屏"
     },
     "localeSwitcher": {
-        "switchLocale": "更改区域设置"
+        "switchLocale": "切换语言"
     },
     "open": {
         "openFile": "打开文件"
@@ -47,20 +47,22 @@
     },
     "print": {
         "cancel": "取消",
-        "preparingDocument": "准备文件...",
+        "close": "关闭",
+        "disallowPrint": "该文档不允许打印",
+        "preparingDocument": "正在准备文档...",
         "print": "打印"
     },
     "properties": {
         "author": "作者",
         "close": "关闭",
-        "creationDate": "创作日期",
-        "creator": "创作者",
-        "fileName": "文件名称",
+        "creationDate": "创建日期",
+        "creator": "创建者",
+        "fileName": "文件名",
         "fileSize": "文件大小",
         "keywords": "关键词",
         "modificationDate": "修改日期",
         "pageCount": "页数",
-        "pdfProducer": "PDF制作软件",
+        "pdfProducer": "PDF生成器",
         "pdfVersion": "PDF版本",
         "showProperties": "显示属性",
         "subject": "主题",
@@ -71,39 +73,43 @@
         "rotateForward": "顺时针旋转"
     },
     "scrollMode": {
+        "dualPage": "双页",
+        "dualPageCover": "带封面的双页",
         "horizontalScrolling": "水平滚动",
+        "pageScrolling": "翻页滚动",
+        "singlePage": "单页",
         "verticalScrolling": "垂直滚动",
-        "wrappedScrolling": "环绕滚动"
+        "wrappedScrolling": "包裹滚动"
     },
     "search": {
         "close": "关闭",
-        "enterToSearch": "输入搜索词",
-        "matchCase": "相符",
-        "nextMatch": "下一个相符",
-        "previousMatch": "上一个相符",
+        "enterToSearch": "输入进行搜索",
+        "matchCase": "区分大小写",
+        "nextMatch": "下一个匹配项",
+        "previousMatch": "上一个匹配项",
         "search": "搜索",
-        "wholeWords": "全部词句"
+        "wholeWords": "全字匹配"
     },
     "selectionMode": {
-        "handTool": "手型工具",
+        "handTool": "手动工具",
         "textSelectionTool": "文本选择工具"
     },
     "theme": {
-        "switchDarkTheme": "切换到深色模式",
-        "switchLightTheme": "切换到浅色模式"
+        "switchDarkTheme": "切换到暗色主题",
+        "switchLightTheme": "切换到亮色主题"
     },
     "thumbnail": {
-        "thumbnailLabel": "页面缩略图 {{pageIndex}}"
+        "thumbnailLabel": "第 {{pageIndex}} 页的缩略图"
     },
     "toolbar": {
         "moreActions": "更多操作"
     },
     "zoom": {
-        "actualSize": "实际尺寸",
-        "pageFit": "适合页面",
-        "pageWidth": "页面宽度",
-        "zoomDocument": "缩放文件",
-        "zoomIn": "缩小",
-        "zoomOut": "放大"
+        "actualSize": "实际大小",
+        "pageFit": "适应页面",
+        "pageWidth": "适应页面宽度",
+        "zoomDocument": "缩放文档",
+        "zoomIn": "放大",
+        "zoomOut": "缩小"
     }
 }

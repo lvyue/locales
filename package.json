@@ -1,6 +1,6 @@
 {
     "name": "@react-pdf-viewer/locales",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Translations of the React PDF Viewer's UI in different languages",
     "license": "https://react-pdf-viewer.dev/license",
     "author": {
